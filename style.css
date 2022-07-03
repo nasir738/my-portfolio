@@ -9,11 +9,15 @@ body{
 h1{
     font-size: 50px;
 }
+p{
+    text-align: justify;
+}
 .orange-color{
     color:orange;
 }
 section{
      display: flex;
+     margin-bottom: 3px;
 }
 .half-width{
     width: 50%;
@@ -29,4 +33,18 @@ section{
     font-weight: 700;
     padding: 10px 40px;
     border-radius: 7px;
+    
+}
+.download-resume{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(224, 63, 224),rgb(255, 0, 191));
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+.dream-big{
+    background-image: url(/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
